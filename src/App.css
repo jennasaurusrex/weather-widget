@@ -1,22 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
+.weather-info {
+  -moz-box-shadow: 0 0 20px #ccc;
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+  max-width: 600px;
+  padding: 50px;
+  margin: 20px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.vertical-align {
+  margin: 30px auto;
 }
 
-.App-link {
-  color: #09d3ac;
+.weather-temp {
+  font-size: 700%;
+  font-weight: lighter;
+}
+
+.weather-description {
+  font-weight: 550;
+  color: #a9a9a9;
+}
+
+.weather-country {
+  font-size: 110%;
+  color: #a9a9a9;
+}
+
+.weather-city {
+  font-weight: 800;
+  font-size: 110%;
+}
+
+input.transparent-input {
+  border: none !important;
+}
+
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+input.transparent-input {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none !important;
 }
