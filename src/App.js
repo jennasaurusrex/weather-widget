@@ -43,7 +43,7 @@ class App extends React.Component {
     e.preventDefault();
 
     axios({
-      url: `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}&units=imperial`,
+      url: `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}&units=imperial`,
       method: "get"
     })
       .then(response => {
