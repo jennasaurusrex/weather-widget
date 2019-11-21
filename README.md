@@ -7,4 +7,4 @@ A clean, minimalist weather app created with ReactJS. Find the weather by search
   - Run `npm start`
   - Magic!
 
-[Imgur](https://imgur.com/ynDdbDt.jpg)
+![](https://imgur.com/ynDdbDt.jpg)
