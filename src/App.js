@@ -59,7 +59,9 @@ class App extends React.Component {
           error: ""
         });
       })
+      .then(res => console.log(res))
       .catch(() => this.setState({ error: "Please enter a location." }));
+    console.log(this.state);
   };
 
   render() {
